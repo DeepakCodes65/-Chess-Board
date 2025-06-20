@@ -1,0 +1,46 @@
+body {
+    background-color: blue;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.chess_board {
+    height: 640px;
+    width: 640px;
+    margin: auto;
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: column;
+     justify-content: center;
+    align-items: center;
+    
+}
+.row {
+    display: flex;
+    width: 100%;
+}
+.box1 {
+    height: 80px;
+    width: 80px;
+    background-color: black;
+    color: white;
+    font-size: 3.2rem;
+
+}
+
+.box2 {
+    height: 80px;
+    width: 80px;
+    background-color: white;
+    color: black;
+    font-size: 3.2rem;
+}
+
+.box1, .box2 {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+
